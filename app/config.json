@@ -1,0 +1,16 @@
+{
+    "sitename": "urlshtnr",
+    "trust_proxy": true,
+    "port": 3000,
+    "mongoose": {
+        "uri": "mongodb://localhost/urlshrt",
+        "options": {
+            "server": {
+                "socketOptions": {
+                    "keepAlive": 1,
+                    "connectTimeoutMS": 30000
+                }
+            }
+        }
+    }
+}

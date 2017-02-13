@@ -1,0 +1,26 @@
+{{#contentFor "styles"}}
+    <link rel="stylesheet" href="stylesheets/pages/home.css">
+{{/contentFor}}
+<section>
+    <form id="shrtnrForm">
+        <h1 class="title">Hey man! Why is your link so long?</h1>
+        <div class="formInner">
+            <input type="text" class="actualLink" name="actualLink" placeholder="Paste a link to shorten it">
+            <input type="text" class="desiredShorten" name="desiredShorten" placeholder="Enter desired shortening" >
+            <input type="submit" class="submitShorten" value="Shorten">
+        </div>
+        <div class="error formError hide">Errror!!</div>
+        <div class="link hide">
+            <a href="#" target="_blank"></a>
+            <button>Back</button>
+        </div>
+    </form>
+</section>
+{{#contentFor "scripts"}}
+    <script src="/bower_components/fetch/fetch.js"></script>
+    <script src="/bower_components/validate/validate.min.js"></script>
+    <script src="/js/pages/home.js"></script>
+    <script>
+        var form = new ShrtnrForm('shrtnrForm');
+    </script>
+{{/contentFor}}

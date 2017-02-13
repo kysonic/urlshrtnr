@@ -1,0 +1,63 @@
+.hide
+  display none !important
+section
+  width 100%
+  height 100%
+  display flex
+  align-items center
+  justify-content center
+  form
+    display flex
+    max-width 796px
+    width 100%
+    flex-direction column
+    font-family "Open Sans"
+    font-weight 100
+    h1
+     text-align center
+    .formInner
+      display flex
+      flex-direction row
+      input
+        display inline-block
+        border 1px solid #ff552b
+        padding 15px 10px
+        font-size 20px
+        font-weight 100
+        &.actualLink
+          width 50%
+          border-radius 5px 0 0 5px
+        &.desiredShorten
+          width 35%
+          border-left none
+        &.submitShorten
+          width 15%
+          border-left none
+          border-radius 0 5px 5px 0
+          text-transform uppercase
+          background #ff552b
+          color #fff
+          cursor pointer
+    .error
+      color red
+      font-size 14px
+      font-weight 900
+      text-align center
+      padding 5px 0px
+    .link
+      text-align center
+      a, button
+        display inline-block
+      a
+        font-size 20px
+        text-decoration none
+        color #922f12
+      button
+        margin-left 10px
+        background none
+        border none
+        color #ff552b
+        cursor pointer
+        font-size 16px
+        text-transform uppercase
+

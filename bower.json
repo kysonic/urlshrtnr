@@ -1,0 +1,22 @@
+{
+  "name": "urlshtnr",
+  "description": "",
+  "main": "bin/www",
+  "authors": [
+    "Anton Miroshnichenko"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fetch": "^2.0.2",
+    "validate": "validate.js#^0.11.1"
+  }
+}
