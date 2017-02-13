@@ -1,6 +1,11 @@
 # URL SHRTNR
 
-Hey! It is just an example of koa app. 
+Hey! It is just an example of koa app.
+ 
+## Prerequisites
+ 
+1. node >= 6.9.0
+2. mongodb >= 3.2.10
  
 ## Getting started 
 
