@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "bin/www",
+  "engines" : { "node" : ">=6.9.1" },
   "scripts": {
     "start": "node bin/www",
     "prepare": "npm install && bower install",
@@ -24,5 +25,8 @@
     "mongoose": "^4.7.0",
     "request": "^2.79.0",
     "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0"
   }
 }
