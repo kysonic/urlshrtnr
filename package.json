@@ -5,7 +5,8 @@
   "main": "bin/www",
   "scripts": {
     "start": "node bin/www",
-    "prepare": "npm install && bower install"
+    "prepare": "npm install && bower install",
+    "postinstall": "bower install"
   },
   "author": "Anton Miroshnichenko",
   "dependencies": {

@@ -3,7 +3,7 @@
     "trust_proxy": true,
     "port": 3000,
     "mongoose": {
-        "uri": "mongodb://localhost/urlshrt",
+        "uri": "mongodb://heroku_dgmj9hb3:jsefb9o8ktokuh21e5nds40sum@ds151909.mlab.com:51909/heroku_dgmj9hb3",
         "options": {
             "server": {
                 "socketOptions": {
